@@ -29,15 +29,16 @@ In diesem Abschnitt werden gemäß BSI TR-03127 Varianten von produzierten Perso
 Diese Liste mit Änderungen werden wir bei Bedarf weiter fortsetzen. Anwendungsentwicklern im eID-Kontext wird auf dieser Basis eine Möglichkeit gegeben, die im Feld verfügbaren Varianten des Personalausweises korrekt zu behandeln und diese Varianten in ihre Software zu integrieren. 
 
 ## eID-Clients für den elektronischen Personalausweis
+Die folgenden eID-Clients stehen zur Verfügung, um auf unterschiedlichen Plattformen auf den Personalausweis zuzugreifen.
 
 | Merkmal | AusweisApp | Authada-App | Open eID Client |
-| -------- | -------- | -------- |-------- |
-| Hersteller | Bund/Governikus | Authada | ecsec |
-| Website | [www.ausweisapp.bund.de](https://www.ausweisapp.bund.de/home/) | App Store | [www.openecard.org](https://www.openecard.org/startseite/) |
-| Source Code |	[github.com/Governikus/AusweisApp2](https://github.com/Governikus/AusweisApp2) | nicht verfügbar | [github.com/ecsec/open-ecard](https://github.com/ecsec/open-ecard) |
-| Unterstützte Plattformen | Windows, MacOS, (Linux), Android, iOS | Android, iOS | Windows, Android, iOS |
-| BSI Zertifizierung | ja | ja | ja |
-| SDK verfügbar | ja | ja | nein |
+| :------: | -------- | -------- |-------- |
+| **Hersteller** | Bund/Governikus | Authada | ecsec |
+| **Website** | [www.ausweisapp.bund.de](https://www.ausweisapp.bund.de/home/) | App Store | [www.openecard.org](https://www.openecard.org/startseite/) |
+| **Source Code** |	[github.com/Governikus/AusweisApp2](https://github.com/Governikus/AusweisApp2) | nicht verfügbar | [github.com/ecsec/open-ecard](https://github.com/ecsec/open-ecard) |
+| **Unterstützte Plattformen** | Windows, MacOS, (Linux), Android, iOS | Android, iOS | Windows, Android, iOS |
+| **BSI Zertifizierung** | ja | ja | ja |
+| **SDK verfügbar** | ja | ja | nein |
 
 ## Open Source Projekte im Kontext des Personalausweises
 Im Kontext des Personalausweises gibt es unterschiedliche Projekte. wir möchten an dieser Stellen den Open Source Projekten eine Möglichkeit bieten, sich vorzustellen. Diese Liste wird mit der Zeit erweitert. Sollten Sie Ihr Projekt in dieser Liste vermissen, kontaktieren Sie uns einfach.
