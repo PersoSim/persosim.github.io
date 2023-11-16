@@ -33,6 +33,8 @@ Diese Liste mit Änderungen werden wir bei Bedarf weiter fortsetzen. Anwendungse
 | Merkmal | AusweisApp | Authada-App | Open eID Client |
 | -------- | -------- | -------- |-------- |
 | Hersteller | Bund/Governikus | Authada | ecsec |
+| Website | [www.ausweisapp.bund.de](https://www.ausweisapp.bund.de/home/) | App Store | [www.openecard.org](https://www.openecard.org/startseite/) |
+| Source Code |	[github.com/Governikus/AusweisApp2](https://github.com/Governikus/AusweisApp2) | nicht verfügbar | [github.com/ecsec/open-ecard](https://github.com/ecsec/open-ecard) |
 | Unterstützte Plattformen | Windows, MacOS, (Linux), Android, iOS | Android, iOS | Windows, Android, iOS |
 | BSI Zertifizierung | ja | ja | ja |
 | SDK verfügbar | ja | ja | nein |
@@ -47,16 +49,16 @@ Im Kontext des Personalausweises gibt es unterschiedliche Projekte. wir möchten
 # Simulator
 Im Rahmen der Entwicklung des Testwerkzeugs [GlobalTester](https://globaltester.secunet.com/de/) existiert bereits ein Simulator für elektronische Reisepässe (ePassport) bzw. den neuen elektronischen Personalausweis (nPA). Dieser Simulator wird bereits als kommerzielle Version für Konformitätstests gemäß der BSI TR-03105 erfolgreich eingesetzt. Die kommerzielle Version nutzt dabei ebenfalls nur kommerziell verfügbare Hardware, die die Kommunikation zwischen dem Kartenleser und dem Software-Simulator übernimmt. Die Hardware (Comprion CLT one) handelt dabei die Parameter für die Kommunikation aus und stellt dem Simulator die APDU zur Verfügung. Der Simulator wiederum berechnet die Antworten und sendet diese über die Hardware zurück an den Kartenleser. Die Abbildung zeigt diese Art der Kommunikation in Anlehnung an das ISO/OSI-Schichtenmodell.
 
-![Simulator_ISO_Layer](https://github.com/PersoSim/persosim.github.io/blob/main/Simulator_ISO_Layer.png)
+![Simulator_ISO_Layer](https://persosim.github.io/Simulator_ISO_Layer.png)
 
 Da für ein Open Source Projekt wie PersoSim die Hardware aufgrund der hohen Kosten nur schwer zur Verfügung steht, stellen wir hier eine Alternative bereit. Statt physikalischer Hardware nutzen wir hier einen virtuellen Kartenleser, der sich wie ein ganz normaler Kartenleser in bestehende Anwendungen integrieren lässt und der die Kommunikation mit der Simulator übernimmt. In obiger Abbildung ist diese Art der Kommunikation ebenfalls abgebildet.
 
 Die folgende Grafik ordnet den Simulator aus dem Projekt PersoSim in den Kontext des deustschen Personalausweis und der eID-Clients sowie der eID-Server ein.
 
-![PersoSim_Grafik_DE](https://github.com/PersoSim/persosim.github.io/blob/main/PersoSim_Grafik_DE.jpg)
+![PersoSim_Grafik_DE](https://persosim.github.io/PersoSim_Grafik_DE.jpg)
  
 ## Zertifizierung PersoSim nach BSI TR-03105
 PersoSim ist wie andere physische Personalausweise auch nach TR-03105 Teil 3.3 zertifiziert und entspricht somit den Vorgaben des BSI.
 
-![BSI-K-TR-0198-2015](https://github.com/PersoSim/persosim.github.io/blob/main/BSI-K-TR-0198-2015.jpg)
+![BSI-K-TR-0198-2015](https://persosim.github.io/BSI-K-TR-0198-2015.jpg)
 
