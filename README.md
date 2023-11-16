@@ -13,7 +13,7 @@ Das BSI hat auf seiner Website nun eine eigene [Seite](https://www.bsi.bund.de/P
 
 # Technik
 ## Technische Details
-in diesem Abschnitt möchten wir technische Details veröffentlichen, die im Kontext des elektronischen Personalausweises interessant sind. Genauer gesagt geht es um die Varianten des Personalausweises, eID-Clients für den elektronischen Personalausweis sowie Open Source Projekte im Kontext des Personalausweises. 
+In diesem Abschnitt möchten wir technische Details veröffentlichen, die im Kontext des elektronischen Personalausweises interessant sind. Genauer gesagt geht es um die Varianten des Personalausweises, eID-Clients für den elektronischen Personalausweis sowie Open Source Projekte im Kontext des Personalausweises. 
 
 ## Varianten des Personalausweises
 In diesem Abschnitt werden gemäß BSI TR-03127 Varianten von produzierten Personalausweisen und Aufenthaltstiteln gegenüber den aktuellen Versionen der Spezifikationen aufgeführt. Diese Varianten ergeben sich beispielsweise durch Änderungen und Aktualisierungen in den Spezifikationen. Die Ausweise werden bei diesem Verfahren anhand der Seriennummern der genutzten DocumentSigner identifiziert. Die Informationen, die in der folgenden Tabelle aufgeführt sind, stehen zusätzlich elektronisch als DefectList gemäß BSI TR-03129 zur Verfügung. Die DefectList beinhaltet Produktionsfehler und -änderungen, die bei einer großen Menge von ausgegebenen Dokumenten wie dem Personalausweis unvermeidlich sind. Ein Terminal kann ein oder mehrere DefectLists über das Kommando GetDefectList anfordern. 
@@ -48,16 +48,16 @@ Im Kontext des Personalausweises gibt es unterschiedliche Projekte. wir möchten
 # Simulator
 Im Rahmen der Entwicklung des Testwerkzeugs [GlobalTester](https://globaltester.secunet.com/de/) existiert bereits ein Simulator für elektronische Reisepässe (ePassport) bzw. den neuen elektronischen Personalausweis (nPA). Dieser Simulator wird bereits als kommerzielle Version für Konformitätstests gemäß der BSI TR-03105 erfolgreich eingesetzt. Die kommerzielle Version nutzt dabei ebenfalls nur kommerziell verfügbare Hardware, die die Kommunikation zwischen dem Kartenleser und dem Software-Simulator übernimmt. Die Hardware (Comprion CLT one) handelt dabei die Parameter für die Kommunikation aus und stellt dem Simulator die APDU zur Verfügung. Der Simulator wiederum berechnet die Antworten und sendet diese über die Hardware zurück an den Kartenleser. Die Abbildung zeigt diese Art der Kommunikation in Anlehnung an das ISO/OSI-Schichtenmodell.
 
-![Simulator_ISO_Layer](https://github.com/PersoSim/persosim.github.io/assets/1050305/7c6068ba-24f4-4ce7-ad59-6712cc5c4692)
+![Simulator_ISO_Layer](https://github.com/PersoSim/persosim.github.io/blob/main/Simulator_ISO_Layer.png)
 
 Da für ein Open Source Projekt wie PersoSim die Hardware aufgrund der hohen Kosten nur schwer zur Verfügung steht, stellen wir hier eine Alternative bereit. Statt physikalischer Hardware nutzen wir hier einen virtuellen Kartenleser, der sich wie ein ganz normaler Kartenleser in bestehende Anwendungen integrieren lässt und der die Kommunikation mit der Simulator übernimmt. In obiger Abbildung ist diese Art der Kommunikation ebenfalls abgebildet.
 
 Die folgende Grafik ordnet den Simulator aus dem Projekt PersoSim in den Kontext des deustschen Personalausweis und der eID-Clients sowie der eID-Server ein.
 
-![PersoSim_Grafik_DE](https://github.com/PersoSim/persosim.github.io/assets/1050305/f2924cda-3b3b-4536-9261-b958762c3105)
+![PersoSim_Grafik_DE](https://github.com/PersoSim/persosim.github.io/blob/main/PersoSim_Grafik_DE.jpg)
  
 ## Zertifizierung PersoSim nach BSI TR-03105
 PersoSim ist wie andere physische Personalausweise auch nach TR-03105 Teil 3.3 zertifiziert und entspricht somit den Vorgaben des BSI.
 
-![BSI-K-TR-0198-2015](https://github.com/PersoSim/persosim.github.io/assets/1050305/e2994a4f-ee16-4345-989a-e8548fa2237c)
+![BSI-K-TR-0198-2015](https://github.com/PersoSim/persosim.github.io/blob/main/BSI-K-TR-0198-2015.jpg)
 
