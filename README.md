@@ -29,7 +29,7 @@ In diesem Abschnitt werden gemäß BSI TR-03127 Varianten von produzierten Perso
 Diese Liste mit Änderungen werden wir bei Bedarf weiter fortsetzen. Anwendungsentwicklern im eID-Kontext wird auf dieser Basis eine Möglichkeit gegeben, die im Feld verfügbaren Varianten des Personalausweises korrekt zu behandeln und diese Varianten in ihre Software zu integrieren. 
 
 ## eID-Clients für den elektronischen Personalausweis
-|  | **AusweisApp** | **Authada-App** | **Open eID Client** |
+| Merkmal | AusweisApp | Authada-App | Open eID Client |
 | -------- | -------- | -------- |-------- |
 | **Hersteller**   | Bund/Governikus | Authada | ecsec |
 | **Website** | www.ausweisapp.bund.de | App Store | www.openecard.org |
