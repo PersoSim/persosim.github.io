@@ -31,12 +31,12 @@ Diese Liste mit Änderungen werden wir bei Bedarf weiter fortsetzen. Anwendungse
 ## eID-Clients für den elektronischen Personalausweis
 | Merkmal | AusweisApp | Authada-App | Open eID Client |
 | -------- | -------- | -------- |-------- |
-| **Hersteller**   | Bund/Governikus | Authada | ecsec |
-| **Website** | www.ausweisapp.bund.de | App Store | www.openecard.org |
-| **Source Code** |	[github.com/Governikus/AusweisApp2](https://github.com/Governikus/AusweisApp2) | nicht verfügbar | [github.com/ecsec/open-ecard](https://github.com/ecsec/open-ecard) |
-| **Unterstützte Plattformen** | Windows, MacOS, (Linux), Android, iOS | Android, iOS | Windows, Android, iOS |
-| **BSI Zertifizierung** | ja | ja | ja |
-| **SDK verfügbar** | ja | ja | nein |
+| Hersteller | Bund/Governikus | Authada | ecsec |
+| Website | www.ausweisapp.bund.de | App Store | www.openecard.org |
+| Source Code |	[github.com/Governikus/AusweisApp2](https://github.com/Governikus/AusweisApp2) | nicht verfügbar | [github.com/ecsec/open-ecard](https://github.com/ecsec/open-ecard) |
+| Unterstützte Plattformen | Windows, MacOS, (Linux), Android, iOS | Android, iOS | Windows, Android, iOS |
+| BSI Zertifizierung | ja | ja | ja |
+| SDK verfügbar | ja | ja | nein |
 
 ## Open Source Projekte im Kontext des Personalausweises
 Im Kontext des Personalausweises gibt es unterschiedliche Projekte. wir möchten an dieser Stellen den Open Source Projekten eine Möglichkeit bieten, sich vorzustellen. Diese Liste wird mit der Zeit erweitert. Sollten Sie Ihr Projekt in dieser Liste vermissen, kontaktieren Sie uns einfach.
