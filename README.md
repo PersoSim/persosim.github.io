@@ -78,7 +78,7 @@ Wir unterscheiden zwischen der Anwender-Community hier auf dieser Website und de
 Als secunet bieten wir Ihnen über den Support hier in der Community auch Trainings zum Thema PersoSim an. Wir bieten Ihnen ebenfalls Unterstützung bei der Integration von PersoSim in Ihren Entwicklungs- bzw. Testprozess an (Continuous Integration). Kontaktieren Sie uns dazu bitte über info@secunet.com.
 
 ### Gibt es Veröffentlichungen zum Thema PersoSim? 
-Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Bereich 'Veröffentlichungen'.
+Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Abschnitt  [Veröffentlichungen](https://persosim.github.io/blob/main/README.md#verC3%B6ffentlichungen).
 
 ## Einsatz des Simulators
 ### Welche Betriebssysteme werden unterstützt? 
