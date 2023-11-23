@@ -12,7 +12,7 @@ Willkommen auf dem Internet-Portal der Open Source Community zu PersoSim, dem Si
 ## PersoSim jetzt auch auf der BSI-Website
 > Das BSI hat auf seiner Website nun eine eigene [Seite](https://www.bsi.bund.de/PersoSim) für PersoSim angelegt. Dort gibt es alle Informationen zum Simulator und den dazugehörigen Tools in kompakter Form. Als Teil der eID-Infrastruktur ist PersoSim ein wichtiger Mosaikstein, um die Interoperabilität der Komponenten im deutschen eID-System sicherzustellen. Die Testinfrastruktur setzt sich zu diesem Zweck aus den einzelnen Komponenten der eID-Infrastruktur zusammen, um den Herstellern der einzelnen Komponenten Testmöglichkeiten sowie Testwerkzeuge an die Hand zu geben. Für darüberhinausgehende Tests – wie bspw. die Integration des Simulators in die bestehende Continuous Integration – stehen die Entwickler und Berater der secunet gerne zur Verfügung.
 
-Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html)
+Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html).
 
 # Downloads und Installation
 Dieses Kapitel enthält die Dateien, die für den Betrieb des Simulators nötig sind, sowie eine kurze Anleitung zur Installation. Wir unterstützen neben Windows auch Linux und macOS für die stationäre Variante von PersoSim. Für ältere Smartphones mit NFC liegt ein Android-APK bereit.
@@ -25,7 +25,7 @@ Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulat
 * Installation des Treibers: Wählen Sie bitte je nach System Treiber für Linux bzw. macOS oder Windows und folgen Sie bitte den Installationsanweisungen. Der Windows-Treiber enthält die notwendigen Dateien sowohl für Windows 7, 8 und 10 jeweils als Architektur mit 32 Bit oder 64 Bit. Den Treiber für Linux und macOS müssen Sie derzeit selbst kompilieren; die Sourcen finden Sie hier: [PersoSim_Driver_PCSCLite_20180209.tgz](https://persosim.github.io/software/PersoSim_Driver_PCSCLite_20180209.tgz). Das Installationspaket für Windows finden Sie hier: [PersoSim_Driver_win_20180209.zip](https://persosim.github.io/software/PersoSim_Driver_win_20180209.zip)
 * Simulator: Starten Sie den Simulator (Eclipse RCP) für die jeweilige Plattform ([Windows](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip), [macOS](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip), [Linux](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)) im entpackten Verzeichnis. Wir unterstützen mittlerweile nur noch die Versionen mit 64 Bit.
 * (optional) Profil Editor: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform ([Windows](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip), [macOS](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip), [Linux](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)) im entpackten Verzeichnis.
-* (optional) Android-Version: Das APK für Android finden sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/blob/main/software/PersoSim_0_17_2.apk)
+* (optional) Android-Version: Das APK für Android finden Sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/blob/main/software/PersoSim_0_17_2.apk)
 
 ## Handbücher
 Im [Anwenderhandbuch](https://persosim.github.io/manuals/Anwenderdokumentation_v1.4.pdf) beschreiben wir die Grundlagen zum Einsatz von PersoSim, angefangen von der Installation bis zum Einsatz.
@@ -99,14 +99,14 @@ Entwickler sind selbstverständlich dazu eingeladen die Open-Source-Software Per
 Wir unterscheiden zwischen der Anwender-Community hier auf dieser Website und der Entwickler-Community. Den Source Code zum Projekt PersoSim stellen wir deshalb auf github bereit. Das Repository findet man hier: [github.com/PersoSim](https://github.com/persosim). Dort gibt es auch technische Informationen, die den Einstieg in den Source Code des Simulators erleichtern soll. 
 
 ### Gibt es Trainings im Kontext PersoSim?
-Als secunet bieten wir Ihnen über den Support hier in der Community auch Trainings zum Thema PersoSim an. Wir bieten Ihnen ebenfalls Unterstützung bei der Integration von PersoSim in Ihren Entwicklungs- bzw. Testprozess an (Continuous Integration). Kontaktieren Sie uns dazu bitte über info@secunet.com.
+Als secunet bieten wir Ihnen über den Support hier in der Community auch Trainings zum Thema PersoSim an. Wir bieten Ihnen ebenfalls Unterstützung bei der Integration von PersoSim in Ihren Entwicklungs- bzw. Testprozess an (Continuous Integration). Kontaktieren Sie uns dazu bitte über info@secunet.com. 
 
 ### Gibt es Veröffentlichungen zum Thema PersoSim? 
-Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Abschnitt [Veröffentlichungen](https://persosim.github.io/README.md#verC3%B6ffentlichungen).
+Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Abschnitt [Veröffentlichungen](README.md#verC3%B6ffentlichungen). 
 
 ## Einsatz des Simulators
 ### Welche Betriebssysteme werden unterstützt? 
-Wir haben Treiber für den virtuellen Kartenleser auf den Betriebssystemen Windows, Linux und MacOS bereitgestellt. Der Simulator läuft ebenfalls auf diesen Betriebssystemen. Zusätzlich haben wir eine App für Android implementiert, die ebenfalls einen Personalausweis simuliert und die NFC-Schnittstelle nutzt. 
+Wir haben Treiber für den virtuellen Kartenleser auf den Betriebssystemen Windows, Linux und macOS bereitgestellt. Der Simulator läuft ebenfalls auf diesen Betriebssystemen. Zusätzlich haben wir eine App für Android implementiert, die ebenfalls einen Personalausweis simuliert und die NFC-Schnittstelle nutzt. 
 
 ### Wie lautet die PIN und die CAN für die verwendeten Profile? 
 Die Profile nutzen alle als PIN die ‚123456‘ und als CAN die ‚500540‘. Als PUK ist die ‚9876543210‘ personalisiert. 
