@@ -14,6 +14,30 @@ Willkommen auf dem Internet-Portal der Open Source Community zu PersoSim, dem Si
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html)
 
+# Downloads und Installation
+Dieses Kapitel enthält die Dateien, die für den Betrieb des Simulators nötig sind, sowie eine kurze Anleitung zur Installation. Wir unterstützen neben Windows auch Linux und macOS für die stationäre Variante von PersoSim. Für ältere Smartphones mit NFC liegt ein Android-APK bereit.
+
+## Systemvoraussetzungen
+Java muss mindestens in Version 1.8 oder neuer installiert sein. Wir empfehlen entweder das Installationspaket von [Adoptium](https://adoptium.net/de/), das alle notwendigen Einstellungen automatisch vornimmt, oder das [OpenJDK](https://jdk.java.net/) bei dem die Einstellungen manuell durchgeführt werden können.
+
+## Vorgehensweise zur Installation
+Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulators:
+* Installation des Treibers: Wählen Sie bitte je nach System Treiber für Linux bzw. macOS oder Windows und folgen Sie bitte den Installationsanweisungen. Der Windows-Treiber enthält die notwendigen Dateien sowohl für Windows 7, 8 und 10 jeweils als Architektur mit 32 Bit oder 64 Bit. Den Treiber für Linux und macOS müssen Sie derzeit selbst kompilieren; die Sourcen finden Sie hier: [PersoSim_Driver_PCSCLite_20180209.tgz](https://persosim.github.io/software/PersoSim_Driver_PCSCLite_20180209.tgz). Das Installationspaket für Windows finden Sie hier: [PersoSim_Driver_win_20180209.zip](https://persosim.github.io/software/PersoSim_Driver_win_20180209.zip)
+* Simulator: Starten Sie den Simulator (Eclipse RCP) für die jeweilige Plattform ([Windows](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip), [macOS](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip), [Linux](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)) im entpackten Verzeichnis. Wir unterstützen mittlerweile nur noch die Versionen mit 64 Bit.
+* (optional) Profil Editor: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform ([Windows](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip), [macOS](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip), [Linux](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)) im entpackten Verzeichnis.
+* (optional) Android-Version: Das APK für Android finden sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/blob/main/software/PersoSim_0_17_2.apk)
+
+## Handbücher
+Im [Anwenderhandbuch](https://persosim.github.io/manuals/Anwenderdokumentation_v1.4.pdf) beschreiben wir die Grundlagen zum Einsatz von PersoSim, angefangen von der Installation bis zum Einsatz.
+
+Die Vorgehensweise zum Ändern von Trust Points beschreiben wir im Dokument [TA_Trust_Points_v1.3.pdf](https://persosim.github.io/manuals/TA_Trust_Points_v1.3.pdf).
+
+## Profile
+In PersoSim nutzen wir nicht nur typische Profile, wie sie im physischen Personalausweis verwendet werden, sondern auch Unionsbürgerkarten und Smart-eID. Informationen zu den Profilen der jeweiligen Varianten stellen wir in den folgenden Dokumenten bereit:
+* Klassischer Personalausweis: [PersoSim_Personalisierungsdaten_nPA.pdf](https://persosim.github.io/manuals/PersoSim_Personalisierungsdaten_nPA.pdf)
+* Unionsbürgerkarte: [PersoSim_Personalisierungsdaten_eID_UB.pdf](https://persosim.github.io/manuals/PersoSim_Personalisierungsdaten_eID_UB.pdf)
+* Smart-eID: [Smart-eID-PersoSim_Personalisierungsdaten-2021.pdf](https://persosim.github.io/manuals/Smart-eID-PersoSim_Personalisierungsdaten-2021.pdf)
+
 # Technik
 ## Technische Details
 In diesem Abschnitt möchten wir technische Details veröffentlichen, die im Kontext des elektronischen Personalausweises interessant sind. Genauer gesagt geht es um die Varianten des Personalausweises, eID-Clients für den elektronischen Personalausweis sowie Open Source Projekte im Kontext des Personalausweises. 
@@ -39,7 +63,7 @@ Die folgenden eID-Clients stehen zur Verfügung, um auf unterschiedlichen Plattf
 | **Hersteller** | Bund/Governikus | Authada | ecsec |
 | **Website** | [www.ausweisapp.bund.de](https://www.ausweisapp.bund.de/home/) | App Store | [www.openecard.org](https://www.openecard.org/startseite/) |
 | **Source Code** |	[github.com/Governikus/AusweisApp2](https://github.com/Governikus/AusweisApp2) | nicht verfügbar | [github.com/ecsec/open-ecard](https://github.com/ecsec/open-ecard) |
-| **Unterstützte Plattformen** | Windows, MacOS, (Linux), Android, iOS | Android, iOS | Windows, Android, iOS |
+| **Unterstützte Plattformen** | Windows, macOS, (Linux), Android, iOS | Android, iOS | Windows, Android, iOS |
 | **BSI Zertifizierung** | ja | ja | ja |
 | **SDK verfügbar** | ja | ja | nein |
 
@@ -78,7 +102,7 @@ Wir unterscheiden zwischen der Anwender-Community hier auf dieser Website und de
 Als secunet bieten wir Ihnen über den Support hier in der Community auch Trainings zum Thema PersoSim an. Wir bieten Ihnen ebenfalls Unterstützung bei der Integration von PersoSim in Ihren Entwicklungs- bzw. Testprozess an (Continuous Integration). Kontaktieren Sie uns dazu bitte über info@secunet.com.
 
 ### Gibt es Veröffentlichungen zum Thema PersoSim? 
-Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Abschnitt  [Veröffentlichungen](https://persosim.github.io/blob/main/README.md#verC3%B6ffentlichungen).
+Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Abschnitt [Veröffentlichungen](https://persosim.github.io/README.md#verC3%B6ffentlichungen).
 
 ## Einsatz des Simulators
 ### Welche Betriebssysteme werden unterstützt? 
@@ -88,13 +112,13 @@ Wir haben Treiber für den virtuellen Kartenleser auf den Betriebssystemen Windo
 Die Profile nutzen alle als PIN die ‚123456‘ und als CAN die ‚500540‘. Als PUK ist die ‚9876543210‘ personalisiert. 
 
 ### Wird für den Simulator spezielle Hardware benötigt? 
-Nein, es handelt sich um eine reine Softwarelösung für die keine weitere Hardware benötigt wird. Der Simulator beinhaltet einen virtuellen Kartenleser für die Betriebssysteme Windows, Linux und MacOS, der als Verbindung zwischen Applikation und Simulator dient.
+Nein, es handelt sich um eine reine Softwarelösung für die keine weitere Hardware benötigt wird. Der Simulator beinhaltet einen virtuellen Kartenleser für die Betriebssysteme Windows, Linux und macOS, der als Verbindung zwischen Applikation und Simulator dient.
 
 ### Welche Zertifikate werden für die mitgelieferten Profile verwendet und wo findet man diese? 
 Im entpackten PersoSim-Verzeichnis finden Sie im Verzeichnis \plugins\de.persosim.simulator_XXX\personalization\gtCertificates die zugrundeliegenden AT-, IS und ST-Zertifikate. Die Profile selbst werden mit einem Zertifikat der Beta-PKI durch das BSI signiert. 
 
 ### Wie kann man eigene Profile erstellen? 
-Damit Sie nicht in den XML-Dateien editieren müssen, um eigene Profile zu erstellen, haben wir einen Editor implementiert. Dieser hilft Ihnen eigene Profile zu erstellen, die Sie dann im Simulator verwenden können. Der Editor steht unter 'Downloads' bereit. 
+Damit Sie nicht in den XML-Dateien editieren müssen, um eigene Profile zu erstellen, haben wir einen Editor implementiert. Dieser hilft Ihnen eigene Profile zu erstellen, die Sie dann im Simulator verwenden können. Der Editor steht im Kapitel 'Downloads und Installation' bereit. 
 
 ### Wie kann man die Selbstauskunft in der AusweisApp2 mit PersoSim verwenden? 
 Die AusweisApp2 kommuniziert von Haus aus mit einem für den Echtbetrieb ausgelegten eID-Server, der die Echtheit des simulierten Ausweises berechtigterweise anzweifelt. Um die simulierten Personalausweise auszulesen gibt es zwei Möglichkeiten:
