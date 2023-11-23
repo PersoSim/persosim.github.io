@@ -10,7 +10,7 @@ Willkommen auf dem Internet-Portal der Open Source Community zu PersoSim, dem Si
 > Der Simulator für den deutschen Personalausweis steht nun in Version 0.18.3 zur Verfügung. Die Änderungen erstrecken sich auf die Smart-eID, so dass der Simulator nun neue Profile für die Smart-eID beinhaltet, die  zusätzlich mit dem Editor bearbeitet werden können.
 
 ## PersoSim jetzt auch auf der BSI-Website
-> Das BSI hat auf seiner Website nun eine eigene [Seite](https://www.bsi.bund.de/PersoSim) für PersoSim angelegt. Dort gibt es alle Informationen zum Simulator und den dazugehörigen Tools in kompakter Form. Als Teil der eID-Infrastruktur ist PersoSim ein wichtiger Mosaikstein, um die Interoperabilität der Komponenten im deutschen eID-System sicherzustellen. Die Testinfrastruktur setzt sich zu diesem Zweck aus den einzelnen Komponenten der eID-Infrastruktur zusammen, um den Herstellern der einzelnen Komponenten Testmöglichkeiten sowie Testwerkzeuge an die Hand zu geben. Für darüber hinausgehende Tests – wie bspw. die Integration des Simulators in die bestehende Continuous Integration – stehen die Entwickler und Berater der secunet gerne zur Verfügung.
+> Das BSI hat auf seiner Website nun eine eigene [Seite](https://www.bsi.bund.de/PersoSim) für PersoSim angelegt. Dort gibt es alle Informationen zum Simulator und den dazugehörigen Tools in kompakter Form. Als Teil der eID-Infrastruktur ist PersoSim ein wichtiger Mosaikstein, um die Interoperabilität der Komponenten im deutschen eID-System sicherzustellen. Die Testinfrastruktur setzt sich zu diesem Zweck aus den einzelnen Komponenten der eID-Infrastruktur zusammen, um den Herstellern der einzelnen Komponenten Testmöglichkeiten sowie Testwerkzeuge an die Hand zu geben. Für darüberhinausgehende Tests – wie bspw. die Integration des Simulators in die bestehende Continuous Integration – stehen die Entwickler und Berater der secunet gerne zur Verfügung.
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html)
 
@@ -68,7 +68,7 @@ Die folgenden eID-Clients stehen zur Verfügung, um auf unterschiedlichen Plattf
 | **SDK verfügbar** | ja | ja | nein |
 
 ## Open Source Projekte im Kontext des Personalausweises
-Im Kontext des Personalausweises gibt es unterschiedliche Projekte. wir möchten an dieser Stellen den Open Source Projekten eine Möglichkeit bieten, sich vorzustellen. Diese Liste wird mit der Zeit erweitert. Sollten Sie Ihr Projekt in dieser Liste vermissen, kontaktieren Sie uns einfach.
+Im Kontext des Personalausweises gibt es unterschiedliche Projekte. wir möchten an dieser Stelle den Open Source Projekten eine Möglichkeit bieten, sich vorzustellen. Diese Liste wird mit der Zeit erweitert. Sollten Sie Ihr Projekt in dieser Liste vermissen, kontaktieren Sie uns einfach.
 
 * androsmex: Eine Implementierung des PACE-Protokolls für Android-Geräte mit NFC-Schnittstelle. Siehe: [code.google.com/p/androsmex ](https://github.com/tsenger/androsmex)
 * eIDClientCore: Eine gemeinsame Initiative der Bundesdruckerei und der Humboldt-Universität Berlin um eine clientseitige eID-Basis-Software zum Bereitstellen der eID-Funktionalität zu entwickeln. Siehe http://sar.informatik.hu-berlin.de/BeID-lab/eIDClientCore/
@@ -79,9 +79,9 @@ Im Rahmen der Entwicklung des Testwerkzeugs [GlobalTester](https://globaltester.
 
 ![Simulator_ISO_Layer](https://persosim.github.io/Simulator_ISO_Layer.png)
 
-Da für ein Open Source Projekt wie PersoSim die Hardware aufgrund der hohen Kosten nur schwer zur Verfügung steht, stellen wir hier eine Alternative bereit. Statt physikalischer Hardware nutzen wir hier einen virtuellen Kartenleser, der sich wie ein ganz normaler Kartenleser in bestehende Anwendungen integrieren lässt und der die Kommunikation mit der Simulator übernimmt. In obiger Abbildung ist diese Art der Kommunikation ebenfalls abgebildet.
+Da für ein Open Source Projekt wie PersoSim die Hardware aufgrund der hohen Kosten nur schwer zur Verfügung steht, stellen wir hier eine Alternative bereit. Statt physikalischer Hardware nutzen wir hier einen virtuellen Kartenleser, der sich wie ein ganz normaler Kartenleser in bestehende Anwendungen integrieren lässt und der die Kommunikation mit dem Simulator übernimmt. In obiger Abbildung ist diese Art der Kommunikation ebenfalls abgebildet.
 
-Die folgende Grafik ordnet den Simulator aus dem Projekt PersoSim in den Kontext des deustschen Personalausweis und der eID-Clients sowie der eID-Server ein.
+Die folgende Grafik ordnet den Simulator aus dem Projekt PersoSim in den Kontext des deutschen Personalausweis und der eID-Clients sowie der eID-Server ein.
 
 ![PersoSim_Grafik_DE](https://persosim.github.io/PersoSim_Grafik_DE.jpg)
  
