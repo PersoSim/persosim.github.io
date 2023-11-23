@@ -102,7 +102,7 @@ Wir unterscheiden zwischen der Anwender-Community hier auf dieser Website und de
 Als secunet bieten wir Ihnen über den Support hier in der Community auch Trainings zum Thema PersoSim an. Wir bieten Ihnen ebenfalls Unterstützung bei der Integration von PersoSim in Ihren Entwicklungs- bzw. Testprozess an (Continuous Integration). Kontaktieren Sie uns dazu bitte über info@secunet.com. 
 
 ### Gibt es Veröffentlichungen zum Thema PersoSim? 
-Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Abschnitt [Veröffentlichungen](README.md#verC3%B6ffentlichungen). 
+Wir haben PersoSim auf unterschiedlichen Veranstaltungen wie dem BSI IT-Sicherheitskongress oder der Security Document World präsentiert. Darüber hinaus gibt es Veröffentlichungen zum Thema, z.B. in der Zeitschrift Datenschutz und Datensicherheit (DuD). Soweit verfügbar finden Sie die Präsentationen und Artikel im Kapitel [Publikationen](https://persosim.github.io/#publikationen).
 
 ## Einsatz des Simulators
 ### Welche Betriebssysteme werden unterstützt? 
@@ -118,7 +118,7 @@ Nein, es handelt sich um eine reine Softwarelösung für die keine weitere Hardw
 Im entpackten PersoSim-Verzeichnis finden Sie im Verzeichnis \plugins\de.persosim.simulator_XXX\personalization\gtCertificates die zugrundeliegenden AT-, IS und ST-Zertifikate. Die Profile selbst werden mit einem Zertifikat der Beta-PKI durch das BSI signiert. 
 
 ### Wie kann man eigene Profile erstellen? 
-Damit Sie nicht in den XML-Dateien editieren müssen, um eigene Profile zu erstellen, haben wir einen Editor implementiert. Dieser hilft Ihnen eigene Profile zu erstellen, die Sie dann im Simulator verwenden können. Der Editor steht im Kapitel 'Downloads und Installation' bereit. 
+Damit Sie nicht in den XML-Dateien editieren müssen, um eigene Profile zu erstellen, haben wir einen Editor implementiert. Dieser hilft Ihnen eigene Profile zu erstellen, die Sie dann im Simulator verwenden können. Der Editor steht im Kapitel [Vorgehensweise zur Installation](https://persosim.github.io/#vorgehensweise-zur-installation) bereit. 
 
 ### Wie kann man die Selbstauskunft in der AusweisApp2 mit PersoSim verwenden? 
 Die AusweisApp2 kommuniziert von Haus aus mit einem für den Echtbetrieb ausgelegten eID-Server, der die Echtheit des simulierten Ausweises berechtigterweise anzweifelt. Um die simulierten Personalausweise auszulesen gibt es zwei Möglichkeiten:
@@ -135,7 +135,7 @@ Aufgrund des Status als Testtool für Entwickler, nicht als Produkt für Endanwe
 ### Wie kann man das Pseudonym für ein Profil ändern? 
 Ab Version 0.15 kann man im Editor das Pseudonym für ein Profil ändern. Dazu werden im Profil der öffentliche und der geheime Schlüssel für Restricted Identification (RI) gespeichert. Sie können unter RI nun neue Schlüsselpaare automatisch generieren lassen.
 
-# Veröffentlichungen
+# Publikationen
 Die folgenden Publikationen wurden bisher im Kontext von PersoSim veröffentlicht:
 * [PersoSim simuliert den elektronischen Personalausweis – und mehr (secuview, 2017)](https://persosim.github.io/docs/sec_PersoSim_secuview_2_2017_offprint_DE.pdf)
 * [PersoSim - Ein Simulator für den elektronischen Personalausweis (BSI Forum, 2015)](https://persosim.github.io/docs/BSI-Forum_2015-PersoSim_Artikel.pdf)
