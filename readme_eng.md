@@ -20,6 +20,6 @@ Further, the German BSI will use the eID simulator within their institution for 
 
 The PersoSim project not only provides an open-source, software-based eID simulator (nPA) but also aims to build a developer community to further enhance the simulator. 
 
-All PersoSim components can be downloaded here: 'Downloads'. In addition, the source code for the eID simulator and the virtual drivers are available on the github platform [https://github.com/persosim.](https://github.com/persosim). 
+All PersoSim components can be downloaded in chapter [Downloads](https://persosim.github.io/#vorgehensweise-zur-installation). In addition, the source code for the eID simulator and the virtual drivers are available on the github platform [https://github.com/persosim.](https://github.com/persosim). 
 
 Further information in English can be found by clicking the following link [PersoSim – Simulator of the German ID card (The Vault, S. 24-27, 2014)](https://persosim.github.io/docs/The_Vault_14_2014.pdf) by Tobias Senger (BSI), Holger Funke (secunet), Anke Larkworthy (independent consultant), published in The Vault magazine, June 2014.
