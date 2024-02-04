@@ -76,11 +76,6 @@ Da für ein Open Source Projekt wie PersoSim die Hardware aufgrund der hohen Kos
 Die folgende Grafik ordnet den Simulator aus dem Projekt PersoSim in den Kontext des deutschen Personalausweis und der eID-Clients sowie der eID-Server ein.
 
 ![PersoSim_Grafik_DE](https://persosim.github.io/PersoSim_Grafik_DE.jpg)
- 
-## Zertifizierung PersoSim nach BSI TR-03105
-PersoSim ist wie andere physische Personalausweise auch nach TR-03105 Teil 3.3 zertifiziert und entspricht somit den Vorgaben des BSI.
-
-![BSI-K-TR-0198-2015](https://persosim.github.io/BSI-K-TR-0198-2015.jpg)
 
 # Frequently Asked Questions (FAQ)
 ## Community
@@ -137,8 +132,11 @@ Die folgenden Publikationen wurden bisher im Kontext von PersoSim veröffentlich
 * [PersoSim – Simulator of the German ID card (The Vault, S. 24-27, 2014)](https://persosim.github.io/docs/The_Vault_14_2014.pdf)
 * [PersoSim - Der Open Source Simulator für den elektronischen Personalausweis (Datenschutz und Datensicherheit, 2014)](https://persosim.github.io/docs/DuD_2014_PersoSim_Artikel.pdf)
 
-# Sponsor
+# Sponsor und Zertifizierung
 Das Projekt PersoSim wird finanziert durch das Bundesamt für Sicherheit in der Informationstechnik.
 
 ![BSI Logo](https://persosim.github.io/bsi_logo.png)
 
+PersoSim ist wie andere physische Personalausweise auch nach TR-03105 Teil 3.3 zertifiziert und entspricht somit den Vorgaben des BSI für hoheitliche Dokumente.
+
+![BSI-K-TR-0198-2015](https://persosim.github.io/BSI-K-TR-0198-2015_halfsize.jpg)
