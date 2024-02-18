@@ -8,11 +8,11 @@ You can find an **english** description of PersoSim [here](https://persosim.gith
 
 [Downloads und Installation](https://persosim.github.io#downloads-und-installation)
 
-[Technik]
+[Technik](https://persosim.github.io/technology.html)
 
-[Simulator]
+[Simulator](https://persosim.github.io/simulator.html)
 
-[Frequently Asked Questions (FAQ)]
+[Frequently Asked Questions (FAQ)](https://persosim.github.io/faq.html)
 
 [Publikationen](https://persosim.github.io#publikationen)
 
