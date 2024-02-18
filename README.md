@@ -45,9 +45,19 @@ Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulat
 * Installation des Treibers für den **virtuellen Kartenleser**: Wählen Sie bitte je nach System Treiber für Linux bzw. macOS oder Windows und folgen Sie bitte den Installationsanweisungen. Der Windows-Treiber enthält die notwendigen Dateien sowohl für Windows 7, 8 und 10 jeweils als Architektur mit 32 Bit oder 64 Bit.
   * Den Treiber für Linux und macOS müssen Sie derzeit selbst kompilieren; die Sourcen finden Sie hier: [PersoSim_Driver_PCSCLite_20180209.tgz](https://persosim.github.io/software/PersoSim_Driver_PCSCLite_20180209.tgz).
   * Das Installationspaket für Windows finden Sie hier: [PersoSim_Driver_win_20180209.zip](https://persosim.github.io/software/PersoSim_Driver_win_20180209.zip)
-* **Simulator**: Starten Sie den Simulator (Eclipse RCP) für die jeweilige Plattform ([Windows](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip), [macOS](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip), [Linux](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)) im entpackten Verzeichnis. Wir unterstützen mittlerweile nur noch die Versionen mit 64 Bit.
-* (optional) **Profil Editor**: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform ([Windows](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip), [macOS](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip), [Linux](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)) im entpackten Verzeichnis.
+* Alternativ zum virtuellen Kartenleser können Sie auch die **RemoteIFD-Schnittstelle** von PersoSim nutzen. Diese können Sie auch lokal einsetzen um mit PersoSim zu kommunizieren.
+* **Simulator**: Starten Sie den Simulator (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis. Wir unterstützen mittlerweile nur noch die Versionen mit 64 Bit.
+  * Windows: [de.persosim.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip)
+  * macOS: [de.persosim.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip)
+  * Linux: [de.persosim.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)     
+* (optional) **Profil Editor**: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis.
+  * Windows: [de.persosim.editor.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-win32.win32.x86_64.zip) 
+  * macOS: [de.persosim.editor.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip)
+  * Linux: [de.persosim.editor.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-linux.gtk.x86_64.zip)
 * (optional) **Android-Version**: Das APK für Android finden Sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/software/PersoSim_0_17_2.apk)
+
+Weitere Versionen von PersoSim finden Sie unter [Releases](https://github.com/PersoSim/PersoSim/releases) auf der github-Seite.
+
 
 ## Handbücher
 Im [Anwenderhandbuch](https://persosim.github.io/manuals/Anwenderdokumentation_v1.4.pdf) beschreiben wir die Grundlagen zum Einsatz von PersoSim, angefangen von der Installation bis zum Einsatz.
