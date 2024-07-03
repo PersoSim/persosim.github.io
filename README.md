@@ -70,7 +70,7 @@ Die Vorgehensweise zum Ändern von Trust Points beschreiben wir im Dokument [TA_
 ## Profile
 In PersoSim nutzen wir nicht nur typische Profile, wie sie im physischen Personalausweis verwendet werden, sondern auch Unionsbürgerkarten und Smart-eID. Informationen zu den Profilen der jeweiligen Varianten stellen wir in den folgenden Dokumenten bereit:
 * Klassischer Personalausweis: [PersoSim Personalisierungsdaten nPA 2024](https://persosim.github.io/manuals/nPA-PersoSim_Personalisierungsdaten_V3-2024.pdf)
-* Unionsbürgerkarte: [PersoSim Personalisierungsdaten eID UB 2024](https://persosim.github.io/manuals/eID-UB-PersoSim_Personalisierungsdaten_V2-2024.pdf.pdf)
+* Unionsbürgerkarte: [PersoSim Personalisierungsdaten eID UB 2024](https://persosim.github.io/manuals/eID-UB-PersoSim_Personalisierungsdaten_V2-2024.pdf)
 * Smart-eID: [PersoSim Personalisierungsdaten Smart-eID 2021](https://persosim.github.io/manuals/Smart-eID-PersoSim_Personalisierungsdaten-2021.pdf)
 
 
