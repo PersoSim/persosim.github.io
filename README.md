@@ -59,7 +59,7 @@ Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulat
   * macOS (noch nicht aktualisiert): [PersoSim 0.18.3](https://persosim.github.io/software/de.persosim.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip)
   * Linux: [PersoSim 1.0.0](https://github.com/PersoSim/PersoSim/releases/download/1.0.0/de.persosim.rcp.product-1.0.0-20240703-linux.gtk.x86_64.tar.gz)     
 * (optional) **Profil Editor**: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis.
-  * Windows: [PersoSim Editor 1.0.0](https://github.com/PersoSim/PersoSim/releases/download/1.0.0/de.persosim.rcp.product-1.0.0-20240703-win32.win32.x86_64.zip) 
+  * Windows: [PersoSim Editor 1.0.0](https://github.com/PersoSim/PersoSim/releases/download/1.0.0/de.persosim.editor.rcp.product-1.0.0-20240703-win32.win32.x86_64.zip) 
   * macOS (noch nicht aktualisiert): [PersoSim Editor 0.18.3](https://persosim.github.io/software/de.persosim.editor.rcp.product-0.18.3-20220209-macosx.cocoa.x86_64.zip)
   * Linux: [PersoSim Editor 1.0.0](https://github.com/PersoSim/PersoSim/releases/download/1.0.0/de.persosim.editor.rcp.product-1.0.0-20240703-linux.gtk.x86_64.tar.gz)
 * (optional) **Android-Version**: Das APK für Android finden Sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/software/PersoSim_0_17_2.apk)
