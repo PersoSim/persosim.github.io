@@ -40,6 +40,8 @@ Wichtig ist dabei, dass man ggf. zunächst die Reste der vorherigen Installation
 
 Aufgrund des Status als Testtool für Entwickler, nicht als Produkt für Endanwender, ist eine Signatur des Kartenlesertreibers bis auf Weiteres nicht geplant.
 
+Alternativ zum virtuellen Kartenleser können Sie auch die RemoteIFD-Schnittstelle von PersoSim nutzen. Diese können Sie auch lokal einsetzen um mit PersoSim zu kommunizieren.
+
 ### Wie kann man das Pseudonym für ein Profil ändern? 
 Ab Version 0.15 kann man im Editor das Pseudonym für ein Profil ändern. Dazu werden im Profil der öffentliche und der geheime Schlüssel für Restricted Identification (RI) gespeichert. Sie können unter RI nun neue Schlüsselpaare automatisch generieren lassen.
 
