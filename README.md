@@ -27,7 +27,7 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 # Aktuelles
 
 ## PersoSim für macOS veröffentlicht
-> Wir freuen uns, dass wir nun auch endlich wieder eine Version für macOS zur Verfügung stellen können. In diesem Zusammenhang haben wir das Pairing für RemoteIFD bzw. SaK einheitlich für alle drei Plattformen auf Zertifikats-Fingerprints umgestellt.    
+> Wir freuen uns, dass wir nun auch endlich wieder eine Version für macOS zur Verfügung stellen können. In diesem Zusammenhang haben wir das Pairing für RemoteIFD bzw. SaK einheitlich für alle drei Plattformen auf Zertifikats-Fingerprints umgestellt. Zusätzlich haben wir die Sourcen für den virtuellen Kartenleser an das aktuelle macOS angepasst. Die Links zum Download der Version 1.0.1 finden sich weiter unten in Kapitel [Downloads und Installation](https://persosim.github.io#downloads-und-installation) oder hier [Release 1.0.1](https://github.com/PersoSim/PersoSim/releases/tag/1.0.1)
 
 ## PersoSim Version 1.0.0 veröffentlicht
 > Wir freuen uns, dass wir nun Version 1.0.0 des PersoSim-Simulators und des -Editors veröffentlichen können. Zum Download stehen Version für Windows und Linux zur Verfügung. Die macOS-Version folgt demnächst. Die maßgeblichen Änderungen haben wir im Unterbau vorgenommen, so dass wir neue Änderungen zukünftig einfacher implementieren können. Dabei geht es um die folgenden Änderungen:
