@@ -26,6 +26,9 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 
 # Aktuelles
 
+## PersoSim für macOS veröffentlicht
+> Wir freuen uns, dass wir nun auch endlich wieder eine Version für macOS zur Verfügung stellen können. In diesem Zusammenhang haben wir das Pairing für RemoteIFD bzw. SaK einheitlich für alle drei Plattformen auf Zertifikats-Fingerprints umgestellt.    
+
 ## PersoSim Version 1.0.0 veröffentlicht
 > Wir freuen uns, dass wir nun Version 1.0.0 des PersoSim-Simulators und des -Editors veröffentlichen können. Zum Download stehen Version für Windows und Linux zur Verfügung. Die macOS-Version folgt demnächst. Die maßgeblichen Änderungen haben wir im Unterbau vorgenommen, so dass wir neue Änderungen zukünftig einfacher implementieren können. Dabei geht es um die folgenden Änderungen:
 > * PersoSim und der dazugehörige Editor basieren nun auf Java 17 bzw. 21 sowie auf Eclipse 2024/3
@@ -35,10 +38,6 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 
 ## PersoSim-Präsentation im Rahmen der DIF AG eID
 > Im Rahmen der 19. Sitzung der DIF AG eID beim BSI in Bonn hatten wir die Gelegenheit, PersoSim zu präsentieren. Wir haben dort den aktuellen Stand des Projekts dargestellt und eine Demo zu PersoSim gegeben. Die Demo hat sich dabei von der Installation des Treibers für den virtuellen Kartenleser über die Nutzung des Simulators bis zur Kommunikation zwischen zwei HCE-Smartphones erstreckt. Anschließend konnten wir mit den Teilnehmern über ihre Einsatzzwecke von PersoSim und ihre Erweiterungswünsche sowie Verbesserungsvorschläge diskutieren. Die Folien zum Vortrag finden sich hier: [DIF-AG-eID_PersoSim-Workshop_20240307.pdf](https://persosim.github.io/docs/DIF-AG-eID_PersoSim-Workshop_20240307.pdf).
-
-## Weiterentwicklung von PersoSim gestartet
-> Aktuell sammeln wir neue Anforderungen für die Weiterentwicklung von PersoSim. Dazu sprechen wir mit unterschiedlichen Stakeholdern, sammeln neue Anforderungen, bewerten diese und sortieren sie ein um sie dann zu implementieren. Es wird also zukünftig wieder neue Releases geben. Neuigkeiten werden wir auch über unseren neuen Mastodon-Account bereitstellen: <a rel="me" href="https://mastodon.social/@persosim">mastodon.social/@persosim</a>
-
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html).
 
@@ -60,7 +59,7 @@ Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulat
   * Linux: [PersoSim 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.rcp.product-1.0.1-20240912-linux.gtk.x86_64.tar.gz)     
 * (optional) **Profil Editor**: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis.
   * Windows: [PersoSim Editor 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.editor.rcp.product-1.0.1-20240912-win32.win32.x86_64.zip) 
-  * macOS: [PersoSim Editor 1.0.1](https://github.com/PersoSim/PerosSim/releases/download/1.0.1/de.persosim.editor.rcp.product-1.0.1-20240912-macosx.cocoa.aarch64.tar.gz)
+  * macOS: [PersoSim Editor 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.editor.rcp.product-1.0.1-20240912-macosx.cocoa.aarch64.tar.gz)
   * Linux: [PersoSim Editor 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.editor.rcp.product-1.0.1-20240912-linux.gtk.x86_64.tar.gz)
 * (optional) **Android-Version**: Das APK für Android finden Sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/software/PersoSim_0_17_2.apk)
 
