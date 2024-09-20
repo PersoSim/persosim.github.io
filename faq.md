@@ -45,4 +45,7 @@ Alternativ zum virtuellen Kartenleser können Sie auch die RemoteIFD-Schnittstel
 ### Wie kann man das Pseudonym für ein Profil ändern? 
 Ab Version 0.15 kann man im Editor das Pseudonym für ein Profil ändern. Dazu werden im Profil der öffentliche und der geheime Schlüssel für Restricted Identification (RI) gespeichert. Sie können unter RI nun neue Schlüsselpaare automatisch generieren lassen.
 
+### Warum wird unter macOS angezeigt, dass die PersoSim-Datei defekt sei? 
+Nach dem Download einer Datei unter macOS in das Standard-Verzeichnis "Downloads" setzt macOS für diese Datei ein Quarantäne-Flag. Sobald dieses Flag gesetzt wird, kommt beim Start von PersoSim die Fehlermeldung, dass die Datei defekt sei und in den Mülleimer verschoben werden sollte. Man kann dieses Problem umgehen, indem man die PersoSim-Datei über einen anderen Weg als den Browser herunterlädt, z.B. über wget. Oder man entfernt nach dem Download das Quarantäne-Flag mit folgendem Kommando: ```sudo xattr -r -d com.apple.quarantine /path/to/de.persosim.rcp.product-1.0.1-20240912-macosx.cocoa.x86_64.tar.gz```
+
 
