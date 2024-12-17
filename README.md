@@ -26,6 +26,11 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 
 # Aktuelles
 
+## PersoSim Version 1.1 veröffentlicht
+> Zum Ende des Jahres haben wir nun die Version 1.1 von PersoSim veröffentlicht. In diese Releasem gibt es zwei Änderungen:
+> * Der Editor ermöglicht es nun dem Anwender die RI-Schlüssel selbst zu ändern oder neu generieren zu lassen. Darüber hinaus werden jetzt beim ersten Start von PersoSim die RI-Schlüssel für jedes Profil neu ausgewürfelt. Dies dient dazu, um Konflikte bei der Anmeldung auf Websites zu vermeiden.  
+> * Im Editor lassen sich nun Profile im JSON-Format exportieren, so dass die Profile zukünftig im Emulator der AusweisApp verwendet werden können. Informationen zum JSON-Format gibt es hier: [File system](https://www.ausweisapp.bund.de/sdk/simulator.html#filesystem).
+
 ## PersoSim für macOS veröffentlicht
 > Wir freuen uns, dass wir nun auch endlich wieder eine Version für macOS zur Verfügung stellen können. In diesem Zusammenhang haben wir das Pairing für RemoteIFD bzw. SaK einheitlich für alle drei Plattformen auf Zertifikats-Fingerprints umgestellt. Zusätzlich haben wir die Sourcen für den virtuellen Kartenleser an das aktuelle macOS angepasst. Die Links zum Download der Version 1.0.1 finden sich weiter unten in Kapitel [Downloads und Installation](https://persosim.github.io#downloads-und-installation) oder hier [Release 1.0.1](https://github.com/PersoSim/PersoSim/releases/tag/1.0.1)
 
@@ -35,9 +40,6 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 > * Der Editor signiert nun die Personalisierungsdaten mit ECDSA-256, ECDSA-384 oder ECDSA-512
 > * Die Profile (nPA und UB) wurden aktualisiert und neu signiert
 > * Im Logging des Simulators werden nun auf Systeminformationen protokolliert  
-
-## PersoSim-Präsentation im Rahmen der DIF AG eID
-> Im Rahmen der 19. Sitzung der DIF AG eID beim BSI in Bonn hatten wir die Gelegenheit, PersoSim zu präsentieren. Wir haben dort den aktuellen Stand des Projekts dargestellt und eine Demo zu PersoSim gegeben. Die Demo hat sich dabei von der Installation des Treibers für den virtuellen Kartenleser über die Nutzung des Simulators bis zur Kommunikation zwischen zwei HCE-Smartphones erstreckt. Anschließend konnten wir mit den Teilnehmern über ihre Einsatzzwecke von PersoSim und ihre Erweiterungswünsche sowie Verbesserungsvorschläge diskutieren. Die Folien zum Vortrag finden sich hier: [DIF-AG-eID_PersoSim-Workshop_20240307.pdf](https://persosim.github.io/docs/DIF-AG-eID_PersoSim-Workshop_20240307.pdf).
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html).
 
