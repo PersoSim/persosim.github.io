@@ -54,13 +54,13 @@ Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulat
   * Das Installationspaket für Windows finden Sie hier: [PersoSim_Driver_win_20180209.zip](https://persosim.github.io/software/PersoSim_Driver_win_20180209.zip)
 * Alternativ zum virtuellen Kartenleser können Sie auch die **RemoteIFD-Schnittstelle** von PersoSim nutzen. Diese können Sie auch lokal einsetzen um mit PersoSim zu kommunizieren.
 * **Simulator**: Starten Sie den Simulator (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis. Wir unterstützen mittlerweile nur noch die Versionen mit 64 Bit.
-  * Windows: [PersoSim 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.rcp.product-1.0.1-20240912-win32.win32.x86_64.zip)
-  * macOS: [PersoSim 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.rcp.product-1.0.1-20240912-macosx.cocoa.aarch64.tar.gz)
-  * Linux: [PersoSim 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.rcp.product-1.0.1-20240912-linux.gtk.x86_64.tar.gz)     
+  * Windows: [PersoSim 1.1.0](https://github.com/PersoSim/PersoSim/releases/download/1.1.0/de.persosim.rcp.product-1.1.0-20241212-win32.win32.x86_64.zip)
+  * macOS: [PersoSim 1.1.0](https://github.com/PersoSim/PersoSim/releases/download/1.1.0/de.persosim.rcp.product-1.1.0-20241212-macosx.cocoa.aarch64.tar.gz)
+  * Linux: [PersoSim 1.1.0](https://github.com/PersoSim/PersoSim/releases/download/1.1.0/de.persosim.rcp.product-1.1.0-20241212-linux.gtk.x86_64.tar.gz)     
 * (optional) **Profil Editor**: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis.
-  * Windows: [PersoSim Editor 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.editor.rcp.product-1.0.1-20240912-win32.win32.x86_64.zip) 
-  * macOS: [PersoSim Editor 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.editor.rcp.product-1.0.1-20240917-macosx.cocoa.aarch64.tar.gz)
-  * Linux: [PersoSim Editor 1.0.1](https://github.com/PersoSim/PersoSim/releases/download/1.0.1/de.persosim.editor.rcp.product-1.0.1-20240912-linux.gtk.x86_64.tar.gz)
+  * Windows: [PersoSim Editor 1.1.0](https://github.com/PersoSim/PersoSim/releases/download/1.1.0/de.persosim.editor.rcp.product-1.1.0-20241212-win32.win32.x86_64.zip) 
+  * macOS: [PersoSim Editor 1.1.0](https://github.com/PersoSim/PersoSim/releases/download/1.1.0/de.persosim.editor.rcp.product-1.1.0-20241212-macosx.cocoa.aarch64.tar.gz)
+  * Linux: [PersoSim Editor 1.1.0](https://github.com/PersoSim/PersoSim/releases/download/1.1.0/de.persosim.editor.rcp.product-1.1.0-20241212-linux.gtk.x86_64.tar.gz)
 * (optional) **Android-Version**: Das APK für Android finden Sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/software/PersoSim_0_17_2.apk)
 
 Weitere Versionen von PersoSim finden Sie unter [Releases](https://github.com/PersoSim/PersoSim/releases) auf der github-Seite.
