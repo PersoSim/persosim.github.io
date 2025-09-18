@@ -26,17 +26,30 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 
 # Aktuelles
 
+## PersoSim Version 1.2 veröffentlicht
+> Mit der Version 1.2 des Personalausweis-Simulators stellen wir gleich mehrere neue Funktionen bereit:
+> * Android: Neue Anbindung des Android Smart Card Emulators aus dem vsmartcard-Projekt an PersoSim. Der Android Smart Card Emulator kann genutzt werden, um PersoSim mithilfe eines Android-Geräts mit NFC und eines RFID-Kartenlesers anzusprechen.
+Zur Verwendung muss derzeit noch ein aktueller Stand der App von https://github.com/frankmorgner/vsmartcard/tree/master/ACardEmulator
+genutzt werden. Die Version 3.5, wie sie in F-Droid zur Verfügung steht, hat derzeit noch nicht die korrekte Applet-ID, um direkt von der AusweisApp genutzt werden zu können.
+Beide Geräte (PersoSim und Android) müssen sich per Netzwerk erreichen können und die korrekte IP-Adresse und der Port müssen im Android Smart Card Emulator eingetragen werden. PersoSim stellt QR-Codes zur Verfügung, die in den Einstellungen der App gescannt werden können, um die entsprechenden Werte zu setzen.
+> * Simulator: Zusätzliche Unterstützung des Protokolls CAv3. Mit dem Protokoll Chip Authentication in Version 3 (CAv3) haben wir die Protokolle in PersoSim vervollständigt. CAv3 ist eine Alternative zu CAv2 und Restricted Identification (RI) und bietet neben der starken expliziten Authentifizierung des Ausweises und der bereitgestellten sektorspezifischen Kennungen gegenüber dem Terminal u.a. auch die Sicherstellung der Pseudonymität des Ausweises ohne die Notwendigkeit, dieselben Schlüssel auf mehreren Chips zu verwenden.
+> Hinweis: In Zusammenhang mit der Umsetzung von CAv3 haben wir die Profilstruktur erweitert. Aus diesem Grund benötigt der aktuelle Simulator auch Profile, die mit dem aktuellen Editor erstellt werden. Es ist keine Abwärtskompatibilität gewährleistet. Die mitgelieferten Profile sind davon selbstverständlich nicht betroffen.
+> *	Simulator: Unterstützung des COMPARE-Kommandos. Mit diesem Kommando lassen sich Daten auf unterschiedliche Weise vergleichen. Wir haben das Kommandos so implementiert, dass der Mechanismus wie beim Personalausweis die Verifikation der Datengruppen DG3 (Geburtsdatum), DG8 (Ablaufdatum) und DG18 (CommunityID) unterstützt.
+> *	Simulator: Unterstützung des ENVELOPE-Kommandos. Dieser Mechanismus kann als eine Alternative für Devices genutzt werden, die kein Extended Length unterstützen. Die einzelnen Kommandos zwischen Simulator und Terminal (und umgekehrt) werden dazu in kleinere Pakete verpackt und übertragen.
+> Darüber hinaus haben wir die Profile aktualisiert und neu signiert. Profile für die Smart-eID haben wir im Simulator entfernt, da sie nicht mehr benötigt werden.
+
+> Ausblick: Auch die nächste PersoSim-Version wird wieder neue Features beinhalten. In der zukünftigen Version 1.3 stellen ein überarbeitetes Logging zur Verfügung, eine Schnittstelle zur Fernsteuerung des Simulators und eine Vereinfachung bei der Remote-IFD-Interface.
+
+
 ## Windows-Treiber jetzt signiert
 > Wir freuen uns, dass wir nun endlich auch einen signierten Windows-Treiber zur Verfügung stellen können. Das Installationspaket liegt hier: [PersoSim_Win_Driver_x64.zip](https://persosim.github.io/software/PersoSim_Win_Driver_x64.zip). Für die Installation des Windows-Treibers sind weiterhin Admin-Rechte notwendig.
 > Bedanken möchten wir uns an dieser Stelle bei der Firma adesso, die den Treiber im Rahmen des Fidelio-Projekts signiert hat.
 
 ## PersoSim Version 1.1 veröffentlicht
-> Zum Ende des Jahres haben wir nun die Version 1.1 von PersoSim veröffentlicht. In diese Releasem gibt es zwei Änderungen:
+> Zum Ende des Jahres haben wir nun die Version 1.1 von PersoSim veröffentlicht. In diese Release gibt es zwei Änderungen:
 > * Der Editor ermöglicht es nun dem Anwender die RI-Schlüssel selbst zu ändern oder neu generieren zu lassen. Darüber hinaus werden jetzt beim ersten Start von PersoSim die RI-Schlüssel für jedes Profil neu ausgewürfelt. Dies dient dazu, um Konflikte bei der Anmeldung auf Websites zu vermeiden.  
 > * Im Editor lassen sich nun Profile im JSON-Format exportieren, so dass die Profile zukünftig im Emulator der AusweisApp verwendet werden können. Informationen zum JSON-Format gibt es hier: [File system](https://www.ausweisapp.bund.de/sdk/simulator.html#filesystem).
 
-## PersoSim für macOS veröffentlicht
-> Wir freuen uns, dass wir nun auch endlich wieder eine Version für macOS zur Verfügung stellen können. In diesem Zusammenhang haben wir das Pairing für RemoteIFD bzw. SaK einheitlich für alle drei Plattformen auf Zertifikats-Fingerprints umgestellt. Zusätzlich haben wir die Sourcen für den virtuellen Kartenleser an das aktuelle macOS angepasst. Die Links zum Download der Version 1.0.1 finden sich weiter unten in Kapitel [Downloads und Installation](https://persosim.github.io#downloads-und-installation) oder hier [Release 1.0.1](https://github.com/PersoSim/PersoSim/releases/tag/1.0.1)
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html).
 
