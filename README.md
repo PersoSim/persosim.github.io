@@ -30,8 +30,9 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 > Die neue Version 1.4 des Personalausweis-Simulators liefert die folgenden Features:
 > *	Terminal-Schnittstelle: Zur einfacheren Ansteuerung von PersoSim haben wir nun eine Remote-Schnittstelle integriert über die sich PersoSim fernsteuern lässt. Diese Schnittstelle soll den Einsatz für Continuous Integration (CI) erleichtern. Die unterstützen Kommandos werden im aktualisierten Anwenderhandbuch beschrieben.
 > *	Remote-IFD-Schnittstelle: der Kopplungscode kann weiterhin zufällig generiert werden bzw. frei gewählt werden. Allerdings ist der Kopplungscode von nun an beim Start auf ‚1234‘ eingestellt, was die Kopplung im Testkontext vereinfachen soll.
->*	Logging: wir haben das Logging in PersoSim grundlegend überarbeitet, so dass der Anwender nun viele Möglichkeiten hat, das Logging für seine Bedürfnisse anzupassen. Nähere Infos dazu finden sich ebenfalls im aktualisierten Anwenderhandbuch.
-> Note: Wer sich wundert, wo die Version 1.3 geblieben ist: wir haben die Versionsnummerierung umgestellt, so dass gerade Versionsnummern (minor) nun immer die aktuellen Releases kenntlich machen. Ungerade Nummern stehen für Zwischenversionen, die wir bei Bedarf für Testzwecke bereitstellen.
+> *	Logging: wir haben das Logging in PersoSim grundlegend überarbeitet, so dass der Anwender nun viele Möglichkeiten hat, das Logging für seine Bedürfnisse anzupassen. Nähere Infos dazu finden sich ebenfalls im aktualisierten Anwenderhandbuch.
+
+> Wer sich wundert, wo die Version 1.3 geblieben ist: wir haben die Versionsnummerierung umgestellt, so dass gerade Versionsnummern (minor) nun immer die aktuellen Releases kenntlich machen. Ungerade Nummern stehen für Zwischenversionen, die wir bei Bedarf für Testzwecke bereitstellen.
 
 > Ausblick: In der nächsten Version werden wir die GUI von PersoSim grundlegend überarbeiten.
 
