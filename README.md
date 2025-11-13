@@ -26,6 +26,15 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 
 # Aktuelles
 
+## PersoSim Version 1.4 veröffentlicht mit Remote-Schnittstelle und verbessertem Logging
+> Die neue Version 1.4 des Personalausweis-Simulators liefert die folgenden Features:
+> *	Terminal-Schnittstelle: Zur einfacheren Ansteuerung von PersoSim haben wir nun eine Remote-Schnittstelle integriert über die sich PersoSim fernsteuern lässt. Diese Schnittstelle soll den Einsatz für Continuous Integration (CI) erleichtern. Die unterstützen Kommandos werden im aktualisierten Anwenderhandbuch beschrieben.
+> *	Remote-IFD-Schnittstelle: der Kopplungscode kann weiterhin zufällig generiert werden bzw. frei gewählt werden. Allerdings ist der Kopplungscode von nun an beim Start auf ‚1234‘ eingestellt, was die Kopplung im Testkontext vereinfachen soll.
+>*	Logging: wir haben das Logging in PersoSim grundlegend überarbeitet, so dass der Anwender nun viele Möglichkeiten hat, das Logging für seine Bedürfnisse anzupassen. Nähere Infos dazu finden sich ebenfalls im aktualisierten Anwenderhandbuch.
+> Note: Wer sich wundert, wo die Version 1.3 geblieben ist: wir haben die Versionsnummerierung umgestellt, so dass gerade Versionsnummern (minor) nun immer die aktuellen Releases kenntlich machen. Ungerade Nummern stehen für Zwischenversionen, die wir bei Bedarf für Testzwecke bereitstellen.
+
+> Ausblick: In der nächsten Version werden wir die GUI von PersoSim grundlegend überarbeiten.
+
 ## PersoSim Version 1.2 veröffentlicht
 > Mit der Version 1.2 des Personalausweis-Simulators stellen wir gleich mehrere neue Funktionen bereit:
 > * Android: Neue Anbindung des Android Smart Card Emulators aus dem vsmartcard-Projekt an PersoSim. Der Android Smart Card Emulator kann genutzt werden, um PersoSim mithilfe eines Android-Geräts mit NFC und eines RFID-Kartenlesers anzusprechen.
@@ -38,17 +47,11 @@ Beide Geräte (PersoSim und Android) müssen sich per Netzwerk erreichen können
 > *	Simulator: Unterstützung des ENVELOPE-Kommandos. Dieser Mechanismus kann als eine Alternative für Devices genutzt werden, die kein Extended Length unterstützen. Die einzelnen Kommandos zwischen Simulator und Terminal (und umgekehrt) werden dazu in kleinere Pakete verpackt und übertragen.
 > Darüber hinaus haben wir die Profile aktualisiert und neu signiert. Profile für die Smart-eID haben wir im Simulator entfernt, da sie nicht mehr benötigt werden.
 
-> Ausblick: Auch die nächste PersoSim-Version wird wieder neue Features beinhalten. In der zukünftigen Version 1.3 stellen ein überarbeitetes Logging zur Verfügung, eine Schnittstelle zur Fernsteuerung des Simulators und eine Vereinfachung bei der Remote-IFD-Interface.
-
+> Ausblick: Auch die nächste PersoSim-Version wird wieder neue Features beinhalten. In der zukünftigen Version 1.4 stellen ein überarbeitetes Logging zur Verfügung, eine Schnittstelle zur Fernsteuerung des Simulators und eine Vereinfachung bei der Remote-IFD-Interface.
 
 ## Windows-Treiber jetzt signiert
 > Wir freuen uns, dass wir nun endlich auch einen signierten Windows-Treiber zur Verfügung stellen können. Das Installationspaket liegt hier: [PersoSim_Win_Driver_x64.zip](https://persosim.github.io/software/PersoSim_Win_Driver_x64.zip). Für die Installation des Windows-Treibers sind weiterhin Admin-Rechte notwendig.
 > Bedanken möchten wir uns an dieser Stelle bei der Firma adesso, die den Treiber im Rahmen des Fidelio-Projekts signiert hat.
-
-## PersoSim Version 1.1 veröffentlicht
-> Zum Ende des Jahres haben wir nun die Version 1.1 von PersoSim veröffentlicht. In diese Release gibt es zwei Änderungen:
-> * Der Editor ermöglicht es nun dem Anwender die RI-Schlüssel selbst zu ändern oder neu generieren zu lassen. Darüber hinaus werden jetzt beim ersten Start von PersoSim die RI-Schlüssel für jedes Profil neu ausgewürfelt. Dies dient dazu, um Konflikte bei der Anmeldung auf Websites zu vermeiden.  
-> * Im Editor lassen sich nun Profile im JSON-Format exportieren, so dass die Profile zukünftig im Emulator der AusweisApp verwendet werden können. Informationen zum JSON-Format gibt es hier: [File system](https://www.ausweisapp.bund.de/sdk/simulator.html#filesystem).
 
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html).
