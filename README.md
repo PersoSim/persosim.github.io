@@ -66,13 +66,13 @@ Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulat
   * Das Installationspaket für Windows finden Sie hier: [PersoSim_Win_Driver_x64.zip](https://persosim.github.io/software/PersoSim_Win_Driver_x64.zip)
 * Alternativ zum virtuellen Kartenleser können Sie auch die **RemoteIFD-Schnittstelle** von PersoSim nutzen. Diese können Sie auch lokal einsetzen um mit PersoSim zu kommunizieren.
 * **Simulator**: Starten Sie den Simulator (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis. Wir unterstützen mittlerweile nur noch die Versionen mit 64 Bit.
-  * Windows: [PersoSim 1.2.0](https://github.com/PersoSim/PersoSim/releases/download/1.2.0/de.persosim.rcp.product-1.2.0-20250909-win32.win32.x86_64.zip)
-  * macOS: [PersoSim 1.2.0](https://github.com/PersoSim/PersoSim/releases/download/1.2.0/de.persosim.rcp.product-1.2.0-20250909-macosx.cocoa.aarch64.tar.gz)
-  * Linux: [PersoSim 1.2.0](https://github.com/PersoSim/PersoSim/releases/download/1.2.0/de.persosim.rcp.product-1.2.0-20250909-linux.gtk.x86_64.tar.gz)     
+  * Windows: [PersoSim 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.rcp.product-1.4.0-20251112-win32.win32.x86_64.zip)
+  * macOS: [PersoSim 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.rcp.product-1.4.0-20251112-macosx.cocoa.aarch64.tar.gz)
+  * Linux: [PersoSim 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.rcp.product-1.4.0-20251112-linux.gtk.x86_64.tar.gz)     
 * (optional) **Profil Editor**: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis.
-  * Windows: [PersoSim Editor 1.2.0](https://github.com/PersoSim/PersoSim/releases/download/1.2.0/de.persosim.editor.rcp.product-1.2.0-20250909-win32.win32.x86_64.zip) 
-  * macOS: [PersoSim Editor 1.2.0](https://github.com/PersoSim/PersoSim/releases/download/1.2.0/de.persosim.editor.rcp.product-1.2.0-20250909-macosx.cocoa.aarch64.tar.gz)
-  * Linux: [PersoSim Editor 1.2.0](https://github.com/PersoSim/PersoSim/releases/download/1.2.0/de.persosim.editor.rcp.product-1.2.0-20250909-linux.gtk.x86_64.tar.gz)
+  * Windows: [PersoSim Editor 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.editor.rcp.product-1.4.0-20251112-win32.win32.x86_64.zip) 
+  * macOS: [PersoSim Editor 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.editor.rcp.product-1.4.0-20251112-macosx.cocoa.aarch64.tar.gz)
+  * Linux: [PersoSim Editor 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.editor.rcp.product-1.4.0-20251112-linux.gtk.x86_64.tar.gz)
 * (optional) **Android-Version**: Das APK für Android finden Sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/software/PersoSim_0_17_2.apk)
 
 Weitere Versionen von PersoSim finden Sie unter [Releases](https://github.com/PersoSim/PersoSim/releases) auf der github-Seite.
@@ -80,7 +80,7 @@ Weitere Versionen von PersoSim finden Sie unter [Releases](https://github.com/Pe
 *Hinweis zu macOS: Nach dem Download einer Datei unter macOS in das Standard-Verzeichnis "Downloads" setzt macOS für diese Datei ein Quarantäne-Flag. Sobald dieses Flag gesetzt wird, kommt beim Start von PersoSim die Fehlermeldung, dass die Datei defekt sei und in den Mülleimer verschoben werden sollte. Man kann dieses Problem umgehen, indem man die PersoSim-Datei über einen anderen Weg als den Browser herunterlädt, z.B. über wget. Oder man entfernt nach dem Download das Quarantäne-Flag mit folgendem Kommando: sudo xattr -r -d com.apple.quarantine /path/to/de.persosim.rcp.product-1.0.1-20240912-macosx.cocoa.x86_64.tar.gz*
 
 ## Handbücher
-Im [Anwenderhandbuch](https://persosim.github.io/manuals/PersoSim_Anwenderdokumentation_v1.5.pdf) beschreiben wir die Grundlagen zum Einsatz von PersoSim, angefangen von der Installation bis zum Einsatz. Die Vorgehensweise zum Ändern von Trust Points beschreiben wir mittlerweile ebenfalls im Anwenderhandbuch.
+Im [Anwenderhandbuch](https://persosim.github.io/manuals/PersoSim_Anwenderdokumentation_v1.5.1.pdf) beschreiben wir die Grundlagen zum Einsatz von PersoSim, angefangen von der Installation bis zum Einsatz. Die Vorgehensweise zum Ändern von Trust Points beschreiben wir mittlerweile ebenfalls im Anwenderhandbuch.
 
 ## Profile
 In PersoSim nutzen wir nicht nur typische Profile, wie sie im physischen Personalausweis verwendet werden, sondern auch Unionsbürgerkarten und Smart-eID. Informationen zu den Profilen der jeweiligen Varianten stellen wir in den folgenden Dokumenten bereit:
