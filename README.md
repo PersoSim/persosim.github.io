@@ -61,7 +61,7 @@ Beide Geräte (PersoSim und Android) müssen sich per Netzwerk erreichen können
 Dieses Kapitel enthält die Dateien, die für den Betrieb des Simulators nötig sind, sowie eine kurze Anleitung zur Installation. Wir unterstützen neben Windows auch Linux und macOS für die stationäre Variante von PersoSim. Für ältere Smartphones mit NFC liegt ein Android-APK bereit.
 
 ## Systemvoraussetzungen
-Java muss mindestens in Version 17 oder neuer installiert sein. Wir empfehlen entweder das Installationspaket von [Adoptium](https://adoptium.net/de/), das alle notwendigen Einstellungen automatisch vornimmt, oder das [OpenJDK](https://jdk.java.net/) bei dem die Einstellungen manuell durchgeführt werden können.
+Java muss in Version 17 oder 21 installiert sein (Java 25 wird aktuell noch nicht unterstützt). Wir empfehlen entweder das Installationspaket von [Adoptium](https://adoptium.net/de/), das alle notwendigen Einstellungen automatisch vornimmt, oder das [OpenJDK](https://jdk.java.net/) bei dem die Einstellungen manuell durchgeführt werden können.
 
 ## Vorgehensweise zur Installation
 Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulators:
