@@ -26,6 +26,9 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 
 # Aktuelles
 
+## Experimentelle Version veröffentlicht für Chameleon Mini
+> Zur Integration eines Chameleon Mini gibt es nun eine experimentelle Version 1.5.5 von PersoSim. Da die benötigten Protokolle was Feldstärke, Timing usw. zu anspruchsvoll für Chameleon Mini sind, steht diese Version nicht als offizielles Release zur Verfügung. Stattdessen kann es zu Testzwecken und als Basis für weitere Entwicklungen genutzt werden. Detailliertere Infos zur Nutzung gib es hier: [PersoSim und Chameleon Mini](https://persosim.github.io/chameleon_mini.html).
+
 ## PersoSim Version 1.4 veröffentlicht mit Remote-Schnittstelle und verbessertem Logging
 > Die neue Version 1.4 des Personalausweis-Simulators liefert die folgenden Features:
 > *	Terminal-Schnittstelle: Zur einfacheren Ansteuerung von PersoSim haben wir nun eine Remote-Schnittstelle integriert über die sich PersoSim fernsteuern lässt. Diese Schnittstelle soll den Einsatz für Continuous Integration (CI) erleichtern. Die unterstützen Kommandos werden im aktualisierten Anwenderhandbuch beschrieben.
@@ -49,10 +52,6 @@ Beide Geräte (PersoSim und Android) müssen sich per Netzwerk erreichen können
 > Darüber hinaus haben wir die Profile aktualisiert und neu signiert. Profile für die Smart-eID haben wir im Simulator entfernt, da sie nicht mehr benötigt werden.
 
 > Ausblick: Auch die nächste PersoSim-Version wird wieder neue Features beinhalten. In der zukünftigen Version 1.4 stellen ein überarbeitetes Logging zur Verfügung, eine Schnittstelle zur Fernsteuerung des Simulators und eine Vereinfachung bei der Remote-IFD-Interface.
-
-## Windows-Treiber jetzt signiert
-> Wir freuen uns, dass wir nun endlich auch einen signierten Windows-Treiber zur Verfügung stellen können. Das Installationspaket liegt hier: [PersoSim_Win_Driver_x64.zip](https://persosim.github.io/software/PersoSim_Win_Driver_x64.zip). Für die Installation des Windows-Treibers sind weiterhin Admin-Rechte notwendig.
-> Bedanken möchten wir uns an dieser Stelle bei der Firma adesso, die den Treiber im Rahmen des Fidelio-Projekts signiert hat.
 
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html).
