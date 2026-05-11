@@ -1,6 +1,10 @@
 # Archiv der bisherigen Meldungen
 Hier befinden sich ältere Meldungen zum Projekt "PersoSim":
 
+## Windows-Treiber jetzt signiert
+Wir freuen uns, dass wir nun endlich auch einen signierten Windows-Treiber zur Verfügung stellen können. Das Installationspaket liegt hier: [PersoSim_Win_Driver_x64.zip](https://persosim.github.io/software/PersoSim_Win_Driver_x64.zip). Für die Installation des Windows-Treibers sind weiterhin Admin-Rechte notwendig.
+Bedanken möchten wir uns an dieser Stelle bei der Firma adesso, die den Treiber im Rahmen des Fidelio-Projekts signiert hat.
+
 ## PersoSim Version 1.1 veröffentlicht
 Zum Ende des Jahres haben wir nun die Version 1.1 von PersoSim veröffentlicht. In diese Release gibt es zwei Änderungen:
 * Der Editor ermöglicht es nun dem Anwender die RI-Schlüssel selbst zu ändern oder neu generieren zu lassen. Darüber hinaus werden jetzt beim ersten Start von PersoSim die RI-Schlüssel für jedes Profil neu ausgewürfelt. Dies dient dazu, um Konflikte bei der Anmeldung auf Websites zu vermeiden.  
