@@ -15,4 +15,4 @@ Nach derzeitigem Stand sind mit folgenden Kartenlesern prinzipielle erfolgreiche
 * uTrust 3700 F und 4701 F
 * gemalto Prox-SU
 
-Die einzelnen Dateien zum Release sind hier veröffentlicht: https://github.com/PersoSim/PersoSim/releases/tag/1.5.5
+Die einzelnen Dateien zum Release sind hier veröffentlicht: [Experimentelles Release 1.5.5](https://github.com/PersoSim/PersoSim/releases/tag/1.5.5).
