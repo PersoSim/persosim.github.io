@@ -25,6 +25,10 @@ Willkommen auf dem Internet-Portal der Open Source Community zu PersoSim, dem Si
 Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sollte sich die Frage dort nicht klären lassen, sind wir über unsere Support-Adresse erreichbar: support (at) persosim (punkt) de und versuchen alle Fragen bzgl. PersoSim zu lösen. Gerne nehmen wir darüber auch Ideen zur Verbesserung oder Erweiterungswünsche auf. 
 
 # Aktuelles
+## PersoSim 1.6 veröffentlicht mit Anbindung an Comprion CL Verify
+> In diesem Release haben wir als Hardware zur Kommunikation zwischen Simulator und Kartenleser den [Comprion CL Verify](https://www.comprion.com/products-solutions/products-solutions-a-z/cl-verify-a/) integriert. Dieses Gerät übernimmt die Kommunikation auf den unteren Layern und übersetzt die empfangenen Signale in eine APDU, die an PersoSim weitergeleitet werden. Dieser bearbeitet die APDU und schickt das Ergebnis zurück an den CL Verify, welcher es als R-APDU zurück an den Kartenleser gibt.
+
+> Organisationen und Firmen, die bereits im Besitz eines CL Verify sind, können diesen mit Release 1.6 nun auch in Kombination mit PersoSim einsetzen.
 
 ## Experimentelle Version veröffentlicht für Chameleon Mini
 > Zur Integration eines Chameleon Mini gibt es nun eine experimentelle Version 1.5.5 von PersoSim. Da die benötigten Protokolle was Feldstärke, Timing usw. zu anspruchsvoll für Chameleon Mini sind, steht diese Version nicht als offizielles Release zur Verfügung. Stattdessen kann es zu Testzwecken und als Basis für weitere Entwicklungen genutzt werden. Detailliertere Infos zur Nutzung gib es hier: [PersoSim und Chameleon Mini](https://persosim.github.io/chameleon_mini.html).
@@ -38,20 +42,6 @@ Bei Fragen zu PersoSim ist unsere FAQ hilfreich, die wir ständig erweitern. Sol
 > Wer sich wundert, wo die Version 1.3 geblieben ist: wir haben die Versionsnummerierung umgestellt, so dass gerade Versionsnummern (minor) nun immer die aktuellen Releases kenntlich machen. Ungerade Nummern stehen für Zwischenversionen, die wir bei Bedarf für Testzwecke bereitstellen.
 
 > Ausblick: In der nächsten Version werden wir die GUI von PersoSim grundlegend überarbeiten.
-
-## PersoSim Version 1.2 veröffentlicht
-> Mit der Version 1.2 des Personalausweis-Simulators stellen wir gleich mehrere neue Funktionen bereit:
-> * Android: Neue Anbindung des Android Smart Card Emulators aus dem vsmartcard-Projekt an PersoSim. Der Android Smart Card Emulator kann genutzt werden, um PersoSim mithilfe eines Android-Geräts mit NFC und eines RFID-Kartenlesers anzusprechen.
-Zur Verwendung muss derzeit noch ein aktueller Stand der App von https://github.com/frankmorgner/vsmartcard/tree/master/ACardEmulator
-genutzt werden. Die Version 3.5, wie sie in F-Droid zur Verfügung steht, hat derzeit noch nicht die korrekte Applet-ID, um direkt von der AusweisApp genutzt werden zu können.
-Beide Geräte (PersoSim und Android) müssen sich per Netzwerk erreichen können und die korrekte IP-Adresse und der Port müssen im Android Smart Card Emulator eingetragen werden. PersoSim stellt QR-Codes zur Verfügung, die in den Einstellungen der App gescannt werden können, um die entsprechenden Werte zu setzen.
-> * Simulator: Zusätzliche Unterstützung des Protokolls CAv3. Mit dem Protokoll Chip Authentication in Version 3 (CAv3) haben wir die Protokolle in PersoSim vervollständigt. CAv3 ist eine Alternative zu CAv2 und Restricted Identification (RI) und bietet neben der starken expliziten Authentifizierung des Ausweises und der bereitgestellten sektorspezifischen Kennungen gegenüber dem Terminal u.a. auch die Sicherstellung der Pseudonymität des Ausweises ohne die Notwendigkeit, dieselben Schlüssel auf mehreren Chips zu verwenden.
-> Hinweis: In Zusammenhang mit der Umsetzung von CAv3 haben wir die Profilstruktur erweitert. Aus diesem Grund benötigt der aktuelle Simulator auch Profile, die mit dem aktuellen Editor erstellt werden. Es ist keine Abwärtskompatibilität gewährleistet. Die mitgelieferten Profile sind davon selbstverständlich nicht betroffen.
-> *	Simulator: Unterstützung des COMPARE-Kommandos. Mit diesem Kommando lassen sich Daten auf unterschiedliche Weise vergleichen. Wir haben das Kommandos so implementiert, dass der Mechanismus wie beim Personalausweis die Verifikation der Datengruppen DG3 (Geburtsdatum), DG8 (Ablaufdatum) und DG18 (CommunityID) unterstützt.
-> *	Simulator: Unterstützung des ENVELOPE-Kommandos. Dieser Mechanismus kann als eine Alternative für Devices genutzt werden, die kein Extended Length unterstützen. Die einzelnen Kommandos zwischen Simulator und Terminal (und umgekehrt) werden dazu in kleinere Pakete verpackt und übertragen.
-> Darüber hinaus haben wir die Profile aktualisiert und neu signiert. Profile für die Smart-eID haben wir im Simulator entfernt, da sie nicht mehr benötigt werden.
-
-> Ausblick: Auch die nächste PersoSim-Version wird wieder neue Features beinhalten. In der zukünftigen Version 1.4 stellen ein überarbeitetes Logging zur Verfügung, eine Schnittstelle zur Fernsteuerung des Simulators und eine Vereinfachung bei der Remote-IFD-Interface.
 
 
 Ältere News befinden sich im [Archiv](https://persosim.github.io/news_archive.html).
@@ -69,13 +59,13 @@ Bitte nutzen Sie die folgenden Schritte zum Installieren und Starten des Simulat
   * Das Installationspaket für Windows finden Sie hier: [PersoSim_Win_Driver_x64.zip](https://persosim.github.io/software/PersoSim_Win_Driver_x64.zip)
 * Alternativ zum virtuellen Kartenleser können Sie auch die **RemoteIFD-Schnittstelle** von PersoSim nutzen. Diese können Sie auch lokal einsetzen um mit PersoSim zu kommunizieren.
 * **Simulator**: Starten Sie den Simulator (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis. Wir unterstützen mittlerweile nur noch die Versionen mit 64 Bit.
-  * Windows: [PersoSim 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.rcp.product-1.4.0-20251112-win32.win32.x86_64.zip)
-  * macOS: [PersoSim 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.rcp.product-1.4.0-20251112-macosx.cocoa.aarch64.tar.gz)
-  * Linux: [PersoSim 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.rcp.product-1.4.0-20251112-linux.gtk.x86_64.tar.gz)     
+  * Windows: [PersoSim 1.6.0](https://github.com/PersoSim/PersoSim/releases/download/1.6.0/de.persosim.rcp.product-1.6.0-20260422-win32.win32.x86_64.zip)
+  * macOS: [PersoSim 1.6.0](https://github.com/PersoSim/PersoSim/releases/download/1.6.0/de.persosim.rcp.product-1.6.0-20260422-macosx.cocoa.aarch64.tar.gz)
+  * Linux: [PersoSim 1.6.0](https://github.com/PersoSim/PersoSim/releases/download/1.6.0/de.persosim.rcp.product-1.6.0-20260422-linux.gtk.x86_64.tar.gz)     
 * (optional) **Profil Editor**: Starten Sie den Editor (Eclipse RCP) für die jeweilige Plattform (Win, macOS, Linux) im entpackten Verzeichnis.
-  * Windows: [PersoSim Editor 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.editor.rcp.product-1.4.0-20251112-win32.win32.x86_64.zip) 
-  * macOS: [PersoSim Editor 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.editor.rcp.product-1.4.0-20251112-macosx.cocoa.aarch64.tar.gz)
-  * Linux: [PersoSim Editor 1.4.0](https://github.com/PersoSim/PersoSim/releases/download/1.4.0/de.persosim.editor.rcp.product-1.4.0-20251112-linux.gtk.x86_64.tar.gz)
+  * Windows: [PersoSim Editor 1.6.0](https://github.com/PersoSim/PersoSim/releases/download/1.6.0/de.persosim.editor.rcp.product-1.6.0-20260422-win32.win32.x86_64.zip) 
+  * macOS: [PersoSim Editor 1.6.0](https://github.com/PersoSim/PersoSim/releases/download/1.6.0/de.persosim.editor.rcp.product-1.6.0-20260422-macosx.cocoa.aarch64.tar.gz)
+  * Linux: [PersoSim Editor 1.6.0](https://github.com/PersoSim/PersoSim/releases/download/1.6.0/de.persosim.editor.rcp.product-1.6.0-20260422-linux.gtk.x86_64.tar.gz)
 * (optional) **Android-Version**: Das APK für Android finden Sie hier: [PersoSim_0_17_2.apk](https://persosim.github.io/software/PersoSim_0_17_2.apk)
 
 Weitere Versionen von PersoSim finden Sie unter [Releases](https://github.com/PersoSim/PersoSim/releases) auf der github-Seite.
